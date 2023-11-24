@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>La Taverna</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Vitória Santana"/>
+	<meta name="keywords" content="Restaurante, boa comida, encontro, italiano, comida italiana"/>
+	<meta name="description" content="Restaurante"/>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+<body>
+	<nav>
+		<a class="a_menu" href="#">HOME</a>
+		<a class="a_menu" href="#SOBRE">SOBRE</a>
+		<a class="a_menu" href="#pag-destaques">DESTAQUES</a>
+		<a class="a_menu" href="#pag-login">LOGIN</a>	
+	</nav>
+	<header>
+		<img src="img/banner.png" alt="fachada de restaurante italiano com uma senhora na porta de entrada">
+	</header>
+
+	<article id="SOBRE">
+		<h1>La Taverna</h1>
+		<p>A <strong>La Taverna</strong> é um restaurante italiano que vem de uma geração de chef's da mesma família. Há mais de 30 anos no mercado, o local nunca deixou de agradar seus consumidores.</p>
+		<p>Com produtos de qualidade e receitas caseiras, o restaurante proporcionará o melhor para seus clientes. Variando de uma grande seleção de pratos, há receitas para todos os gostos. </p>
+	</article>
+
+	<section id="pag-destaques">
+		<h2>Destaques</h2>
+		<p>Tipos de pratos servidos no restaurante e a faixa média de preços:</p>
+		
+		<div id="container">
+			<div class="card">
+				<img class="img" src="img/entrada.jpg" alt="Entrada de prato italiano" />
+				<div class="card-content">
+					<h3>Entrada</h3>
+					<p>R$29,90</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="img" src="img/salada.jpg" alt="Salada com frango" />
+				<div class="card-content">
+					<h3>Salada</h3>
+					<p>R$32,90</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="img" src="img/massa.jpg" alt="Prato de massa com camarão e queijo ralado" />
+				<div class="card-content">
+					<h3>Massas</h3>
+					<p>R$38,90</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="img" src="img/sobremesa.jpg" alt="Sobremesa italiana parecida com uma torta" />
+				<div class="card-content">
+					<h3>Sobremesa</h3>
+					<p>R$19,90</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="pag-login">
+		<h2>Login</h2>
+		<div class="card-form">
+			<form>
+				<label>E-mail:</label>
+				<input id="email" type="email" name="email">
+
+				<label>Senha:</label>
+				<input id="senha" type="password" name="senha">
+				<div id="botoes">
+				<input type="submit" name="botao-log" value="LOGIN">
+				<input type="reset" name="botao-cancelar" value="CANCELAR">
+				</div>
+			</form>
+		</div>
+	</section>
+	
+	<footer>
+		<p>Desenvolvido por <a href="http://instagram.com/viiz.sant" target="_blank">Vitória Santana</a> - 2023</p>
+	</footer>
+</body>
+</html>
+
